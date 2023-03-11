@@ -1,0 +1,225 @@
+  /* CSS styling for the form */
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  input[type="number"] {
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  label {
+    font-weight: bold;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+
+  /* CSS styling for the results section */
+  #results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .category {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  /* CSS styling for the different BMI categories */
+  .underweight {
+    color: #ffc107;
+  }
+
+  .normal {
+    color: #4caf50;
+  }
+
+  .overweight {
+    color: #ff9800;
+  }
+
+  .obesity {
+    color: #f44336;
+  }
+  
+  .dark {
+    background-color: #1c1c1c;
+  }
+  
+  body.dark {
+    background-color: #1c1c1c;
+  }
+    
+  /* CSS code for the BMI calculator */
+*  {
+ box-sizing: border-box;
+  }
+
+body {
+ font-family: Arial, sans-serif;
+ font-size: 16px;
+ color: var(--text-color);
+ background-color: var(--background-color);
+ transition: all 0.5s ease;
+ 
+  }
+
+.container {
+ color: black;
+ max-width: 600px;
+ margin: 0 auto;
+ padding: 20px;
+  }
+
+h1 {
+ font-size: 36px;
+ margin-top: 0;
+ color: black;
+  }
+
+label {
+ display: block;
+ margin-bottom: 10px;
+  }
+
+input[type="number"] {
+ padding: 10px;
+ font-size: 16px;
+ border-radius: 5px;
+ border: none;
+ margin-bottom: 20px;
+  }
+
+button {
+ background-color: #4caf50;
+ color: white;
+ border: none;
+ border-radius: 5px;
+ padding: 10px 20px;
+ font-size: 16px;
+ cursor: pointer;
+  }
+
+button:hover {
+  background-color: #3e8e41;
+  }
+
+ .result {
+   margin-top: 20px;
+   font-size: 24px;
+   font-weight: bold;
+  }
+
+ .category {
+   font-size: 18px;
+   margin-top: 10px;
+   font-weight: bold;
+   text-transform: capitalize;
+  }
+
+ .underweight {
+   color: #2196f3;
+  }
+
+  .normal {
+    color: #4caf50;
+  }
+
+  .overweight {
+    color: #ff9800;
+  }
+
+  .obesity {
+    color: #f44336;
+  }
+
+  /* CSS styling for the dark mode button */
+  #dark-mode-btn {
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+ #dark-mode-btn:hover {
+    background-color: #555;
+  }
+  
+
+  /* Dark mode styles */
+  body.dark {
+    background-color: #1c1c1c;
+  }
+  
+  container.dark {
+    color: white;
+  }
+
+  label.dark {
+    color: white;
+  }
+
+  input[type="number"].dark {
+    background-color: #333;
+    color: white;
+  }
+
+  button.dark {
+    background-color: #2196f3;
+  }
+
+  .result.dark {
+    color: white;
+  }
+  
+  .category.dark {
+    color: #ccc;
+  }
+  
+  .underweight.dark {
+    color: #2196f3;
+  }
+  
+  .normal.dark {
+    color: #4caf50;
+  }
+  .overweight.dark {
+    color: #ff9800;
+  }
+  
+  .obesity.dark {
+    color: #f44336;
+  }
+  
+  h1.dark {
+    font-size: 36px;
+ margin-top: 0;
+ color: white;
+  }
+  
+  #dark-mode-btn.dark {
+  background-color: #ccc;
+  color: black;
+  }
